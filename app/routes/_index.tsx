@@ -19,8 +19,8 @@ export default function Index() {
   return (
     <div className="min-h-screen text-txtcolor bg-bgcolor">
       <Nav/>
-      <div className="flex justify-center mt-4">
-        <div className="w-full px-4 sm:px-6 md:w-3/4 lg:w-1/2 xl:w-1/2">
+      <div className="flex justify-center mt-4 ">
+        <div className="w-full  md:w-1/4 lg:w-1/2 xl:w-1/2 border">
           <div className="flex flex-col justify-center">
             {more ? (
               <>
@@ -85,11 +85,9 @@ export default function Index() {
               </>
             )}
 
-            <div className="flex flex-row items-center gap-2 mt-4 text-sm">
-              <div className="text-lg font-semibold text-white">Recent article:</div>
-              <Link to='' className="underline text-txtcolor cursor-pointer">Why XGBoost performs better than other deep learning models?</Link>
-            </div>
-
+            
+              <Link to='' className=" font-semibold text-white cursor-pointer text-md "> Recent article: <span className="text-xs font-normal text-txtcolor   underline">Why XGBoost performs better than other deep learning models?</span></Link>
+            
             <div className="text-2xl font-semibold mt-4 text-white">Projects</div>
             <div className="">
               {projects.map((project) => (
@@ -119,6 +117,8 @@ export default function Index() {
                   </div>
                 </div>
               ))}
+
+              <div className="font-semibold text-white">Experiences:  <span className="text-sm mb-4  text-txtcolor underline">view my experiences on LinkedIn</span></div>
             </div>
           </div>
         </div>
