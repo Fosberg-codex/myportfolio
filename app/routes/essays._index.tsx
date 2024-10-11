@@ -7,7 +7,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Library() {
+export default function Essays() {
   return (
     <div className="">
         {/* <div style={{fontSize:32}} className="text-5xl font-bold">Remix is cool</div> */}
