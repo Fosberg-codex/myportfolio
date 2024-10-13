@@ -33,6 +33,14 @@ export default function Nav() {
                     >
                         Research
                     </NavLink>
+                    <NavLink
+                        to="/talks"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "text-txtcolor border-b-2 border-white" : isActive ? "text-white font-semibold border-b-2 border-white" : ""
+                        }
+                    >
+                        Talks (4)
+                    </NavLink>
                 </div>
             </div>
         </div>

@@ -92,11 +92,11 @@ export default function Index() {
             )}
 
             
-              <Link to='' className=" font-semibold text-white cursor-pointer text-md "> Recent article: <span className="text-xs font-normal text-txtcolor   underline">Why XGBoost performs better than other deep learning models?</span></Link>
+              {/* <Link to='' className=" font-semibold text-white cursor-pointer text-md "> Recent article: <span className="text-xs font-normal text-txtcolor   underline">Why XGBoost performs better than other deep learning models?</span></Link>
              <div className="flex flex-row gap-1 items-center">
              <Link to='/talks' className="text-white text-sm mt-1 cursor-pointer">Conference presentations: (1) </Link>
              <ArrowRight color="white" size={14} />
-             </div>
+             </div> */}
              
 
             <div className="text-2xl font-semibold mt-4 text-white">Projects</div>
