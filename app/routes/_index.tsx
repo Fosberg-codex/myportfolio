@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import { useState } from "react";
 import Nav from "~/components/nav";
-import {GitHub, Linkedin, Twitter, Target, Monitor, Smartphone, Eye, EyeOff, Circle}  from "react-feather";
+import {GitHub, Linkedin, Twitter, Target, ArrowDownRight, Monitor, Smartphone, Eye, EyeOff, Circle, Download, ArrowRight}  from "react-feather";
 
 export const meta: MetaFunction = () => {
   return [
@@ -19,8 +19,8 @@ export default function Index() {
   return (
     <div className="min-h-screen text-txtcolor bg-bgcolor">
       <Nav/>
-      <div className="flex justify-center mt-4 ">
-        <div className="w-full  md:w-1/4 lg:w-1/2 xl:w-1/2 border">
+      <div className="flex justify-center mt-4  ">
+        <div className="w-full px-4  md:w-1/4 lg:w-1/2 xl:w-1/2 ">
           <div className="flex flex-col justify-center">
             {more ? (
               <>
@@ -42,18 +42,24 @@ export default function Index() {
               </>
             )}
 
-            <div className="mt-4 text-xs sm:text-sm flex flex-row items-center gap-2 text-white">
+            <div className="flex justify-between items-center mt-4">
+            <div className=" text-xs sm:text-sm flex flex-row items-center gap-2 text-white">
               <div>Find me on</div>
               <Link to='/'><GitHub color="#fff" size={18} /></Link>
               <Link to='/'><Linkedin color="#fff" size={18} /></Link>
               <Link to='/'><Twitter color="#fff" size={18} /></Link>
+            </div>
+            <Link to='/mailto:fosberg1addai@gmail' className="text-xs sm:text-sm text-white flex flex-row gap-2 items-center">
+              <div className="text-gray-300 hover:text-white">Resume</div>
+              <div><Download color="#fff" size={16} /></div>
+            </Link>
             </div>
 
             {langs ? (
               <>
                 <div onClick={() => setLangs(!langs)} className="flex cursor-pointer flex-row items-center gap-2 mt-4 text-sm">
                   <div className="">I am fine!!</div>
-                  <EyeOff color="white" size={17} />
+                  <EyeOff color="white" size={13} />
                 </div>
                 <div className="flex flex-col gap-2 justify-center mt-2 px-2 py-2 rounded-md bg-black/90 text-xs sm:text-sm">
                   <div className="font-semibold">Languages</div>
@@ -79,21 +85,26 @@ export default function Index() {
             ) : (
               <>
                 <div onClick={() => setLangs(!langs)} className="flex flex-row items-center cursor-pointer gap-2 mt-4">
-                  <div className="text-lg font-semibold text-white">Curious? <span className="text-txtcolor underline font-normal text-sm">view the tools i use the most</span></div>
-                  <Eye color="#90c3be" size={17} />
+                  <div className="text-lg font-semibold text-white">Curious? <span className="text-txtcolor underline font-normal text-sm">view my stack</span></div>
+                  <Eye color="#90c3be" size={13} />
                 </div>
               </>
             )}
 
             
               <Link to='' className=" font-semibold text-white cursor-pointer text-md "> Recent article: <span className="text-xs font-normal text-txtcolor   underline">Why XGBoost performs better than other deep learning models?</span></Link>
-            
+             <div className="flex flex-row gap-1 items-center">
+             <Link to='/talks' className="text-white text-sm mt-1 cursor-pointer">Conference presentations: (1) </Link>
+             <ArrowRight color="white" size={14} />
+             </div>
+             
+
             <div className="text-2xl font-semibold mt-4 text-white">Projects</div>
             <div className="">
               {projects.map((project) => (
                 <div key={project.id} className="flex flex-col justify-center gap-2 hover:border hover:border-gray-700 text-white bg-black/90 my-4 px-2 py-2 rounded-md text-sm">
                   <Link to={`${project.link}`} className="text-lg font-semibold text-txtcolor">{project.name}</Link>
-                  <div className="">{project.description}</div>
+                  <div className="text-md">{project.description}</div>
                   <div className="flex flex-row items-center justify-between gap-2 text-white">
                     <Link to={`${project.why}`} className="underline">Why this?</Link>
                     <div className="flex flex-row flex-wrap items-center gap-2 text-white">
@@ -118,7 +129,7 @@ export default function Index() {
                 </div>
               ))}
 
-              <div className="font-semibold text-white">Experiences:  <span className="text-sm mb-4  text-txtcolor underline">view my experiences on LinkedIn</span></div>
+              <div className="font-semibold text-white mb-4">Experiences:  <span className="text-sm   text-txtcolor underline">view my experiences on LinkedIn</span></div>
             </div>
           </div>
         </div>
@@ -189,7 +200,7 @@ const projects = [
 
 const stacks = {
   languages: ['Typescript','Javascript','Python', 'C++', 'Rust'],
-  packages:['Next.js','Remix.js','React Native','Pytorch','Sklearn','Prossa','FastAI','Numpy', 'Prossa','Electron.js','PyQT','Mongoose'],
+  packages:['Next.js','Remix.js','React Native','Pytorch','Sklearn','Prossa','FastAI','Numpy', 'Prossa','Electron.js','PyQT','Mongoose','tailwind css (styling)'],
   tools:['Figma','PhotoShop'],
 }
   
