@@ -7,8 +7,8 @@ import {GitHub, Linkedin, Twitter, Target, Monitor, Smartphone, Eye, EyeOff, Cir
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Talks-Fosberg" },
+    { name: "Conference talks and presentaions", content: "About my conference talks and presentaions" },
   ];
 };
 

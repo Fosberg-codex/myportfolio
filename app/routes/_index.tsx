@@ -6,8 +6,8 @@ import {GitHub, Linkedin, Twitter, Target, ArrowDownRight, Monitor, Smartphone, 
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "About-Fosberg" },
+    { name: "This is about me", content: "About Fosberg and his projects" },
   ];
 };
 

@@ -7,8 +7,8 @@ import {GitHub, Linkedin, Twitter, Eye}  from "react-feather";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Essays-Digital transformation: The African role." },
+    { name: "Digital transformation: The African role.", content: "Article on Digital transformation: The African role." },
   ];
 };
 

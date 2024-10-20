@@ -6,8 +6,8 @@ import {GitHub, Linkedin, Twitter, Copy, Circle}  from "react-feather";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Research-Fosberg" },
+    { name: "My research journal", content: "About my research papers, articles and short findings" },
   ];
 };
 
