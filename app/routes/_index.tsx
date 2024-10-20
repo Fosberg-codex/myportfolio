@@ -45,11 +45,11 @@ export default function Index() {
             <div className="flex justify-between items-center mt-4">
             <div className=" text-xs sm:text-sm flex flex-row items-center gap-2 text-white">
               <div>Find me on</div>
-              <Link to='/'><GitHub color="#fff" size={18} /></Link>
-              <Link to='/'><Linkedin color="#fff" size={18} /></Link>
-              <Link to='/'><Twitter color="#fff" size={18} /></Link>
+              <Link to='https://github.com/Fosberg-codex'><GitHub color="#fff" size={18} /></Link>
+              <Link to='https://www.linkedin.com/in/fosberg-addai-53a6991a7/'><Linkedin color="#fff" size={18} /></Link>
+              <Link to='https://x.com/FosbergAddai'><Twitter color="#fff" size={18} /></Link>
             </div>
-            <Link to='/mailto:fosberg1addai@gmail' className="text-xs sm:text-sm text-white flex flex-row gap-2 items-center">
+            <Link to='https://drive.google.com/file/d/1uwXZ9Yl6bN0FhS_W0XZEBRSWrAQci5P7/view?usp=sharing' className="text-xs sm:text-sm text-white flex flex-row gap-2 items-center">
               <div className="text-gray-300 hover:text-white">Resume</div>
               <div><Download color="#fff" size={16} /></div>
             </Link>
@@ -144,19 +144,20 @@ const projects = [
     name: "Plutoflow",
     description: "A no-code/minimal-code platform that helps data scientists and ML engineers run inferences on their models on the web",
     stacks:['Next.js','Typecript','FastAPI','pytorch','onxx runtime'],
-    link:'www.plutoflow.com',
-    why: "www.bleech.com",
+    link:'https://plutofloww.vercel.app/',
+    why: "https://plutofloww.vercel.app/about",
     type: ['web'],
-    github: "https://github.com/fosberg/plutoflow",
-    status:'in progress',
+    github: "https://github.com/Fosberg-codex/onnxview",
+    status:'alive',
+    // status:'in progress',
  },
  {
   id: 2,
   name: "Africabase",
-  description: "A datasets platform which hosts AFrica datasets ",
-  stacks:['Next.js','Typecript','node.js','express.js'],
-  link:'www.africabase.com',
-  why: "www.afhere.com",
+  description: "A datasets platform which hosts datasets in Africa, starting with Ghana ",
+  stacks:['Next.js','Typecript','Node.js','Express.js'],
+  link:'https://africabase.vercel.app/',
+  why: "https://ionized-drink-a0a.notion.site/A-Unified-Base-For-Africa-02f30158d73045f68ff108c09995ad52?pvs=4",
   type: ['web'],
   github: "https://github.com/fosberg/plutoflow",
   status:'alive',
@@ -165,10 +166,10 @@ const projects = [
 {
   id: 3,
   name: "Farnager",
-  description: "A farm managemnet app for farmers with advanced AI in analytics features",
+  description: "A farm managemnet app for farmers: ruminant farming, poultry, fisheries and crop life cycle management.On the road to use data to build in app AI tools and LLM. Will be out on playstore soon",
   stacks:['React Native','Typecript','node.js','express.js','MongoDB','Pytorch'],
-  link:'www.africabase.com',
-  why: "www.afhere.com",
+  link:'mailto:fosberg1addai@gmail.com',
+  why: "mailto:fosberg1addai@gmail.com",
   type: ['mobile'],
   github: "",
   status:'in progress',
@@ -177,9 +178,9 @@ const projects = [
   id: 4,
   name: "Prossa",
   description: "An open-source python framework for checking and recommending datasets",
-  stacks:['Prossa','Numpy','Pandad','Astro.js'],
-  link:'www.prossa.com',
-  why: "www.afhere.com",
+  stacks:['Prossa','Numpy','Pandas'],
+  link:'https://prossa.vercel.app/',
+  why: "https://github.com/Fosberg-codex/prossa",
   type: ['web'],
   github: "",
   status:'alive',
@@ -187,12 +188,23 @@ const projects = [
 {
   id: 5,
   name: "HymnRaise App",
-  description: "A COC hymn book app with intuitive look, built for churches in Ghana",
-  stacks:['React Native','NativeWind','Typescript'],
-  link:'www.prossa.com',
-  why: "www.afhere.com",
+  description: "A Church hymn book app with intuitive look, built for the churches of christ  in Ghana. Will be release on playstore soon",
+  stacks:['React Native','NativeWind','Typescript', 'expo go'],
+  link:'mailto:fosberg1addai@gmail.com',
+  why: "mailto:fosberg1addai@gmail.com",
+  type: ['mobile'],
+  github: "https://github.com/Fosberg-codex/hymnraise",
+  status:'in progress',
+},
+{
+  id: 5,
+  name: "AgentsHiive",
+  description: "A Church hymn book app with intuitive look, built for the churches of christ  in Ghana. Will be release on playstore soon",
+  stacks:['React.js','Next.js','SuperBase', 'Postgres SQL'],
+  link:'https://agentshive.vercel.app/',
+  why: "https://agentshive.vercel.app/about",
   type: ['web'],
-  github: "www.prossa.com/ui",
+  github: "https://github.com/Fosberg-codex/1000agents",
   status:'alive',
 }
 ];
@@ -200,7 +212,7 @@ const projects = [
 
 const stacks = {
   languages: ['Typescript','Javascript','Python', 'C++', 'Rust'],
-  packages:['Next.js','Remix.js','React Native','Pytorch','Sklearn','Prossa','FastAI','Numpy', 'Prossa','Electron.js','PyQT','Mongoose','tailwind css (styling)'],
-  tools:['Figma','PhotoShop'],
+  packages:['Next.js','Remix.js','React Native','Pytorch','Sklearn','Prossa','FastAI','Numpy', 'Prossa','Electron.js','Crew AI','PyQT','Mongoose','tailwind css (styling)'],
+  tools:['Figma','PhotoShop','Mongo DB','Azure DevOps', 'Superbase'],
 }
   

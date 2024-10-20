@@ -24,9 +24,9 @@ export default function Essays() {
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6 text-xs sm:text-sm flex flex-row items-center gap-2 text-white">
               <div>Find me on</div>
-              <Link to='/'><GitHub color="#fff" size={16} className="sm:w-[18px] sm:h-[18px]" /></Link>
-              <Link to='/'><Linkedin color="#fff" size={16} className="sm:w-[18px] sm:h-[18px]" /></Link>
-              <Link to='/'><Twitter color="#fff" size={16} className="sm:w-[18px] sm:h-[18px]" /></Link>
+              <Link to='https://github.com/Fosberg-codex'><GitHub color="#fff" size={18} /></Link>
+              <Link to='https://www.linkedin.com/in/fosberg-addai-53a6991a7/'><Linkedin color="#fff" size={18} /></Link>
+              <Link to='https://x.com/FosbergAddai'><Twitter color="#fff" size={18} /></Link>
             </div>
 
             <div className="text-lg sm:text-xl font-semibold mb-4 text-white"><span className="bg-black py-1 px-2 rounded-md">#</span> Tech and life</div>
@@ -66,33 +66,33 @@ export default function Essays() {
 const essays1 = [
   {
     id: 1,
-    title:'African Transformation',
-    link:'/essays/africant',
-    description:'Dream crave the mean of the tasks and so many yields in a single day...',
-    date:'Jul 5th 2024'
+    title:'Transitioning Into Data Science',
+    link:'/essays/dsguide',
+    description:'The word “data”, “data science”, and “big data” is being used a lot recently...',
+    date:'Apr 2nd 2022'
   },
-  {
-    id: 2,
-    title:'Why XGBoost performs better than other deep learning models?',
-    link:'/essays/XB Boost',
-    description:'Dream crave the mean of the tasks and so many yields in a single day...',
-    date:'Sept 12th 2024'
-  },
-  {
-    id: 3,
-    title:'Is the American dream all it takes?',
-    link:'/essays/dream',
-    description:'Dream crave the mean of the tasks and so many yields in a single day...',
-    date:'May 12th 2024'
-  }
+  // {
+  //   id: 2,
+  //   title:'Why XGBoost performs better than other deep learning models?',
+  //   link:'/essays/XB Boost',
+  //   description:'Dream crave the mean of the tasks and so many yields in a single day...',
+  //   date:'Sept 12th 2024'
+  // },
+  // {
+  //   id: 3,
+  //   title:'Is the American dream all it takes?',
+  //   link:'/essays/dream',
+  //   description:'Dream crave the mean of the tasks and so many yields in a single day...',
+  //   date:'May 12th 2024'
+  // }
 ]
 
 const essays2 = [
   {
     id: 1,
     title:'African Transformation',
-    link:'/essays/african-transformation',
-    description:'Dream crave the mean of the tasks and so many yields in a single day',
-    date:'July 5th 2024'
-  }
+    link:'/essays/africant',
+    description:'Dream crave the mean of the tasks and so many yields in a single day...',
+    date:'Nov 20th 2021'
+  },
 ]

@@ -27,19 +27,19 @@ export default function EssaysAfricant() {
           <div className="flex flex-col justify-center">
             <div className="mt-2 mb-2 lg:mt-2 lg:mb-2 md:mt-2 md:mb-2 text-xs sm:text-sm flex flex-row items-center gap-2 text-white">
               <div>Find me on</div>
-              <Link to='/'><GitHub color="#fff" size={16} /></Link>
-              <Link to='/'><Linkedin color="#fff" size={16} /></Link>
-              <Link to='/'><Twitter color="#fff" size={16} /></Link>
+              <Link to='https://github.com/Fosberg-codex'><GitHub color="#fff" size={18} /></Link>
+              <Link to='https://www.linkedin.com/in/fosberg-addai-53a6991a7/'><Linkedin color="#fff" size={18} /></Link>
+              <Link to='https://x.com/FosbergAddai'><Twitter color="#fff" size={18} /></Link>
             </div>
        
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold mt-4 mb-4 text-white">Digital transformation: The African role.</h1>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-4 mb-4">
               <div className="flex flex-wrap gap-2 text-xs sm:text-sm">
-                <div className="py-1 px-2 rounded-full bg-black/90 text-gray-300">#tag2</div>
-                <div className="py-1 px-2 rounded-full bg-black/90 text-gray-300">#tag3</div>
-                <div className="py-1 px-2 rounded-full bg-black/90 text-gray-300">#tag4</div>
+                <div className="py-1 px-2 rounded-full bg-black/90 text-gray-300">#africa</div>
+                <div className="py-1 px-2 rounded-full bg-black/90 text-gray-300">#tech</div>
+                <div className="py-1 px-2 rounded-full bg-black/90 text-gray-300">#startups</div>
               </div>
-              <div className="text-gray-300 text-xs sm:text-sm">Date: Sept 20th, 2024</div>
+              <div className="text-gray-300 text-xs sm:text-sm">Date: Vov 20th, 2021</div>
               <div className="flex flex-row items-center text-gray-300 text-xs sm:text-sm">
                 <div className="mr-1">views</div>
                 <Eye color="white" size={14} />

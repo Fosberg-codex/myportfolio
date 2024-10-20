@@ -27,9 +27,9 @@ export default function Talks() {
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6 text-xs sm:text-sm flex flex-row items-center gap-2 text-white">
               <div>Find me on</div>
-              <Link to='/'><GitHub color="#fff" size={16} /></Link>
-              <Link to='/'><Linkedin color="#fff" size={16} /></Link>
-              <Link to='/'><Twitter color="#fff" size={16} /></Link>
+              <Link to='https://github.com/Fosberg-codex'><GitHub color="#fff" size={18} /></Link>
+              <Link to='https://www.linkedin.com/in/fosberg-addai-53a6991a7/'><Linkedin color="#fff" size={18} /></Link>
+              <Link to='https://x.com/FosbergAddai'><Twitter color="#fff" size={18} /></Link>
             </div>
        
             <h1 className="text-xl sm:text-2xl font-semibold text-white mb-4">Talks and presentations</h1>
@@ -64,14 +64,14 @@ export default function Talks() {
 const talks = [
   {
     id: 1,
-    title: 'Dymistifying ML workflows with prossa and essential OSS',
-    link: '/essays/africant',
-    description: 'Dream crave the mean of the tasks and so many yields in a single day...',
+    title: 'Dymistifying ML workflows with prossa and Essential Open-Source Tools',
+    link: 'https://2024.pythonho.com/schedule/schedule/',
+    description: 'Speaking about the prossa package, PlutoFlow and Essential Open-Source Tools',
     date: 'Jul 5th 2024',
     location: 'Ghana, Ho',
-    mode: 'online',
+    mode: 'in person',
     status: 'upcoming',
     organizedBy: 'PyHo',
-    orglink: 'www.maker.com'
+    orglink: 'https://2024.pythonho.com/'
   },
 ];
