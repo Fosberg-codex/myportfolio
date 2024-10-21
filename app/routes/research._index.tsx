@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import { useState } from "react";
 import Nav from "~/components/nav";
-import {GitHub, Linkedin, Twitter, Copy, Circle}  from "react-feather";
+import {GitHub, Linkedin, Twitter, Copy, Circle,ExternalLink}  from "react-feather";
 
 export const meta: MetaFunction = () => {
   return [
@@ -41,7 +41,10 @@ export default function Essays() {
 
             {works.map((project) => (
               <div key={project.id} className="flex flex-col justify-center gap-2 hover:border hover:border-gray-700 text-white bg-black/90 my-4 px-2 py-2 rounded-md text-xs sm:text-sm">
-                <Link to={`${project.link}`} className="text-base sm:text-lg font-semibold text-txtcolor underline">{project.title}</Link>
+                <Link to={`${project.link}`} className="text-base sm:text-lg font-semibold text-txtcolor flex items-center">
+                <div>{project.title} <ExternalLink color="#90c3be" size={18} /></div>
+                
+                </Link>
                 <div className="text-gray-300">{project.description}</div>
                 <div className="flex flex-row items-center justify-between gap-2 text-white">
                   <div className="flex items-center gap-2">

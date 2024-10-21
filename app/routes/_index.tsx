@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 import { useState } from "react";
 import Nav from "~/components/nav";
-import {GitHub, Linkedin, Twitter, Target, ArrowDownRight, Monitor, Smartphone, Eye, EyeOff, Circle, Download, ArrowRight}  from "react-feather";
+import {GitHub, Linkedin, Twitter, ExternalLink, Monitor, Smartphone, Eye, EyeOff, Circle, Download, ArrowRight}  from "react-feather";
 
 export const meta: MetaFunction = () => {
   return [
@@ -103,7 +103,10 @@ export default function Index() {
             <div className="">
               {projects.map((project) => (
                 <div key={project.id} className="flex flex-col justify-center gap-2 hover:border hover:border-gray-700 text-white bg-black/90 my-4 px-2 py-2 rounded-md text-sm">
-                  <Link to={`${project.link}`} className="text-lg font-semibold text-txtcolor">{project.name}</Link>
+                  <Link to={`${project.link}`} className="text-lg font-semibold text-txtcolor flex items-center gap-1">
+                  <div>{project.name}</div>
+                  <ExternalLink color="#90c3be" size={14} />
+                  </Link>
                   <div className="text-md">{project.description}</div>
                   <div className="flex flex-row items-center justify-between gap-2 text-white">
                     <Link to={`${project.why}`} className="underline">Why this?</Link>
