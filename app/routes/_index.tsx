@@ -199,7 +199,7 @@ const projects = [
 {
   id: 5,
   name: "AgentsHiive",
-  description: "A Church hymn book app with intuitive look, built for the churches of christ  in Ghana. Will be release on playstore soon",
+  description: "A hub for open-source and close source AI agents",
   stacks:['React.js','Next.js','SuperBase', 'Postgres SQL'],
   link:'https://agentshive.vercel.app/',
   why: "https://agentshive.vercel.app/about",
