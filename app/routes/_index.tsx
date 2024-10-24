@@ -63,7 +63,7 @@ export default function Index() {
                 </div>
                 <div className="flex flex-col gap-2 justify-center mt-2 px-2 py-2 rounded-md bg-black/90 text-xs sm:text-sm">
                   <div className="font-semibold">Languages</div>
-                  <div className="flex flex-row flex-wrap items-center gap-2 text-gray-400">
+                  <div className="flex flex-row flex-wrap items-center gap-2 text-gray-200">
                     {stacks.languages.map((lang, index) => (
                       <div key={index} className="rounded-full bg-bgcolor2 text-xs px-2 py-1">{lang}</div>
                     ))}
