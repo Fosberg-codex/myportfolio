@@ -182,7 +182,7 @@ const projects = [
   name: "Prossa",
   description: "An open-source python framework for checking and recommending datasets",
   stacks:['Prossa','Numpy','Pandas'],
-  link:'https://prossa.plutoflow.com/',
+  link:'https://prossa.plutofloww.com/',
   why: "https://github.com/Fosberg-codex/prossa",
   type: ['web'],
   github: "",
