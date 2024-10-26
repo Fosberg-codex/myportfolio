@@ -144,11 +144,11 @@ export default function Index() {
 const projects = [
  {
     id: 1,
-    name: "Plutoflow",
+    name: "Plutofloww",
     description: "A no-code/minimal-code platform that helps data scientists and ML engineers run inferences on their models on the web",
     stacks:['Next.js','Typecript','FastAPI','pytorch','onxx runtime'],
-    link:'https://plutofloww.vercel.app/',
-    why: "https://plutofloww.vercel.app/about",
+    link:'https://plutofloww.com/',
+    why: "https://plutofloww.com/about",
     type: ['web'],
     github: "https://github.com/Fosberg-codex/onnxview",
     status:'alive',
@@ -182,7 +182,7 @@ const projects = [
   name: "Prossa",
   description: "An open-source python framework for checking and recommending datasets",
   stacks:['Prossa','Numpy','Pandas'],
-  link:'https://prossa.vercel.app/',
+  link:'https://prossa.plutoflow.com/',
   why: "https://github.com/Fosberg-codex/prossa",
   type: ['web'],
   github: "",
