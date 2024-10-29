@@ -6,7 +6,7 @@ import {GitHub, Linkedin, Twitter, ExternalLink, Monitor, Smartphone, Eye, EyeOf
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "About-Fosberg" },
+    { title: "Get to know-Fosberg" },
     { name: "This is about me", content: "About Fosberg and his projects" },
   ];
 };
@@ -26,9 +26,9 @@ export default function Index() {
               <>
                 <div className="flex flex-col justify-center gap-2 mt-4">
                   <div className="text-sm sm:text-base"> 
-                    I am Fosberg, I am into software engineering and machine learning engineering. I care about problem solving while maintaining code best practices. I read Computing Physics at the university. In school, I created machine learning models and software applications to solve complex physics simulations. Just before completion, I decided to focus on building tools for scientists, developers, students and specific niches. Fast forward, I created <Link className="underline" to="https://www.lernexe.com/">Lernexe</Link> with my colleague, an AI platform that helps students learn while not relegating their ability to reason, before ChatGPT was built, which we engineered to support over 5,000 weekly visitors. Being passionate about problem-solving and research, I would have hated myself if I hadn't published my final year college research:  <Link className="underline" to="https://iopscience.iop.org/article/10.1088/2057-1976/ad3cdf">Paper</Link>.
-                    As my philosophy evolved to focus on building solutions faster and safer. My love for fishing data led me to again build <Link className="underline" to="https://africabase.vercel.app">AfricaBase</Link>, a unified datasets hub for Africa, owned by Africans, which I am currently managing. I work on machine learning tasks almost every day, from computer vision to exploring new ML techniques. I created Prossa, a python package <Link className="underline" to="https://prossa.vercel.app">Prossa</Link> to help solve the pain points in data preprocessing, which is often said to take up 70% of the ML workflow. From design, frontend, backend, DevOps and MLOps I have been there.
-                    I have created many cool projects that I have either abandoned or not shipped, but they have greatly contributed to my learning. Now, my goal is to give back to the community that inspired me to build these  and also help businesses ship fast. Currently, I am building  <Link className="underline" to='https://www.plutofloww.com/'>Plutofloww</Link>, a no-code/minimal-code platform that helps data scientists and ML engineers run inferences on their ML on web. 
+                    I am Fosberg, I am into software engineering and machine learning engineering. I care about problem solving while maintaining code best practices. I read Computing Physics at the university. In school, I created machine learning models and software applications to solve complex physics simulations. Just before completion, I decided to focus on building tools for scientists, developers, students and specific niches. Fast forward, I created <Link className="underline text-gray-300" to="https://www.lernexe.com/">Lernexe</Link> with my colleague, an AI platform that helps students learn while not relegating their ability to reason, before ChatGPT was built, which we engineered to support over 5,000 weekly visitors. Being passionate about problem-solving and research, I would have hated myself if I hadn't published my final year college research:  <Link className="underline text-gray-300" to="https://iopscience.iop.org/article/10.1088/2057-1976/ad3cdf">Paper</Link>.
+                    As my philosophy evolved to focus on building solutions faster and safer. My love for fishing data led me to again build <Link className="underline text-gray-300" to="https://africabase.vercel.app">AfricaBase</Link>, a unified datasets hub for Africa, owned by Africans, which I am currently managing. I work on machine learning tasks almost every day, from computer vision to exploring new ML techniques. I created Prossa, a python package <Link className="underline text-gray-300" to="https://prossa.vercel.app">Prossa</Link> to help solve the pain points in data preprocessing, which is often said to take up 70% of the ML workflow. From design, frontend, backend, DevOps and MLOps I have been there.
+                    I have created many cool projects that I have either abandoned or not shipped, but they have greatly contributed to my learning. Now, my goal is to give back to the community that inspired me to build these  and also help businesses ship fast. Currently, I am building  <Link className="underline text-gray-300" to='https://www.plutofloww.com/'>Plutofloww</Link>, a no-code/minimal-code platform that helps data scientists and ML engineers run inferences on their ML on web. 
                     <span onClick={() => setMore(!more)} className="text-white cursor-pointer ml-1">Read less..</span>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ const projects = [
   id: 5,
   name: "AgentsHiive",
   description: "A hub for open-source and close source AI agents",
-  stacks:['React.js','Next.js','SuperBase', 'Postgres SQL'],
+  stacks:['React.js','Next.js','Django Rest','SuperBase', 'Postgres SQL'],
   link:'https://agentshive.vercel.app/',
   why: "https://agentshive.vercel.app/about",
   type: ['web'],
@@ -215,7 +215,7 @@ const projects = [
 
 const stacks = {
   languages: ['Typescript','Javascript','Python', 'C++', 'Rust'],
-  packages:['Next.js','Remix.js','React Native','Pytorch','Sklearn','Prossa','FastAI','Numpy', 'Prossa','Electron.js','Crew AI','PyQT','Mongoose','tailwind css (styling)'],
+  packages:['Next.js','Remix.js','SvelteKit.js','Astro.js','React Native','Django','Django Ninja','Pytorch','Sklearn','Prossa','FastAI','Numpy', 'Prossa','Electron.js','Crew AI','PyQT','Mongoose','tailwind css (styling)'],
   tools:['Figma','PhotoShop','Mongo DB','Azure DevOps', 'Superbase'],
 }
   
