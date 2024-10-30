@@ -70,7 +70,7 @@ const talks = [
     date: 'Jul 5th 2024',
     location: 'Ghana, Ho',
     mode: 'in person',
-    status: 'upcoming',
+    status: 'happened',
     organizedBy: 'PyHo',
     orglink: 'https://2024.pythonho.com/'
   },
