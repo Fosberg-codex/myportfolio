@@ -49,7 +49,7 @@ export default function Index() {
               <Link to='https://www.linkedin.com/in/fosberg-addai-53a6991a7/'><Linkedin color="#fff" size={18} /></Link>
               <Link to='https://x.com/FosbergAddai'><Twitter color="#fff" size={18} /></Link>
             </div>
-            <Link to='https://drive.google.com/file/d/1uwXZ9Yl6bN0FhS_W0XZEBRSWrAQci5P7/view?usp=sharing' className="text-xs sm:text-sm text-white flex flex-row gap-2 items-center">
+            <Link to='https://drive.google.com/file/d/1IKYb_vCQWZZX3qkCsIcwMQ8S2WrmO2bs/view?usp=sharing' className="text-xs sm:text-sm text-white flex flex-row gap-2 items-center">
               <div className="text-gray-300 hover:text-white">Resume</div>
               <div><Download color="#fff" size={16} /></div>
             </Link>
