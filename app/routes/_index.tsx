@@ -201,6 +201,17 @@ const projects = [
 },
 {
   id: 5,
+  name: "DataAI",
+  description: "Ask any question about your tabular dataset in Natural language",
+  stacks:['ReAct','OpenAI','Anthropic'],
+  link:'https://github.com/Fosberg-codex/dataAI',
+  why: "https://github.com/Fosberg-codex/dataAI",
+  type: ['web'],
+  github: "https://github.com/Fosberg-codex/dataAI",
+  status:'alive',
+},
+{
+  id: 5,
   name: "AgentsHiive",
   description: "A hub for open-source and close source AI agents",
   stacks:['React.js','Next.js','Django Rest','SuperBase', 'Postgres SQL'],
