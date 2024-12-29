@@ -64,6 +64,18 @@ export default function Talks() {
 const talks = [
   {
     id: 1,
+    title: 'Decentralised AI with ICP',
+    link: 'https://x.com/i/spaces/1rmxPoePoeyJN',
+    description: 'Was on the panel session about decentralized AI with Plutofloww on ICP',
+    date: 'Dec 20th 2024',
+    location: 'Twitter Spaces',
+    mode: 'virtual',
+    status: 'happened',
+    organizedBy: 'ICP Hubs Africa',
+    orglink: 'https://x.com/i/spaces/1rmxPoePoeyJN'
+  }, 
+  {
+    id: 2,
     title: 'Dymistifying ML workflows with prossa and Essential Open-Source Tools',
     link: 'https://2024.pythonho.com/schedule/schedule/',
     description: 'Speaking about the prossa package, PlutoFlow and Essential Open-Source Tools',
