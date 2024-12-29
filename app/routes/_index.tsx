@@ -169,7 +169,7 @@ const projects = [
 {
   id: 3,
   name: "Farnager.com Web",
-  description: "A farm managemnet app for farmers: ruminant farming, poultry, fisheries and crop life cycle management.On the road to use data to build in app AI tools and LLM. Will be out on playstore soon",
+  description: "A farm managemnet app for farmers: ruminant farming, poultry, fisheries and crop life cycle management. On the road to use data to build in app AI tools and LLM. Will be out on playstore soon",
   stacks:['Next.js','Typecript','node.js','express.js','MongoDB','Pytorch'],
   link:'https://www.farnager.com/',
   why: "https://www.farnager.com/aboutwa",
@@ -180,7 +180,7 @@ const projects = [
 {
   id: 3,
   name: "Farnager App",
-  description: "A farm managemnet app for farmers: ruminant farming, poultry, fisheries and crop life cycle management.On the road to use data to build in app AI tools and LLM. Will be out on playstore soon",
+  description: "A farm managemnet app for farmers: ruminant farming, poultry, fisheries and crop life cycle management. On the road to use data to build in app AI tools and LLM. Will be out on playstore soon",
   stacks:['React Native','Typecript','node.js','express.js','MongoDB','Pytorch'],
   link:'mailto:fosberg1addai@gmail.com',
   why: "mailto:fosberg1addai@gmail.com",
