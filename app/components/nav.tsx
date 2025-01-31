@@ -39,7 +39,7 @@ export default function Nav() {
                             isPending ? "text-txtcolor border-b-2 border-white" : isActive ? "text-white font-semibold border-b-2 border-white" : ""
                         }
                     >
-                        Talks (1)
+                        Talks (2)
                     </NavLink>
                 </div>
             </div>
