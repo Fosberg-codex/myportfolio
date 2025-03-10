@@ -154,6 +154,19 @@ const projects = [
     status:'alive',
     // status:'in progress',
  },
+{
+    id: 10,
+    name: "Workflipp",
+    description: "A work exchange platform that let users do tasks and earn points; they use the points to request a service of equivalent points",
+    stacks:['Remix.js','Typecript','Node.js','Nest.js','MongoDb'],
+    link:'https://workflipp.com/',
+    why: "mailto:fosberg1addai@gmail.com",
+    type: ['web'],
+    github: "",
+    status:'alive',
+    // status:'in progress',
+ },
+
  {
   id: 2,
   name: "Africabase",
